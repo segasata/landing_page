@@ -1,0 +1,96 @@
+/*that roboto font we need*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* to make the background color borderless within the section*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.herosection{
+    background-color: #1f2937;
+}
+
+#headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hlinks{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 12px;
+}
+
+.hero_navgbar{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    /*removing bullets from ul*/
+    list-style: none;
+}
+/*to align the headerlogo and divbars align*/
+.hero_navgbarlft, .hero_navgbarrht{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*second half of the hero section*/
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.herosec_section{
+    display: flex;    
+    flex-direction: row;
+    /*to give better positioning to this content*/
+    margin: 50px;
+}
+/*aligning left and right content to their respective side*/
+.herosec_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    justify-content: center;
+    margin-left: 205px;
+}
+
+.herosec_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+img{
+    margin-bottom: 40px;
+}
+
+.hparag{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_signup{
+    background-color: #3882f6;
+    color: white;
+    width: 105px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+
+}
