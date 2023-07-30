@@ -92,5 +92,118 @@ img{
     height: 35px;
     border: none;
     border-radius: 5px;
+}
 
+/*blue boxes section*/
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.spaceblueboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.bluebox{
+    border: 4px solid #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.secondsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pbelowbox{
+    text-align: center;
+    font-size: 18px;
+}
+
+.thirdsec{
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quoteauth{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quotebx{ 
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 230px;
+}
+
+.fourthsec{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupbx{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    border-radius: 7px;
+}
+
+.fourthlft{
+    width: 85%;
+    margin-left: 85px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h4{
+    font-size: 24px;
+    color: white;
+}
+
+.signmsg{
+    color: white;
+    font-size: 18px;
+}
+
+.fourthrght{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.signbtn{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-right: 200px;
 }
