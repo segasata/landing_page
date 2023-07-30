@@ -9,3 +9,5 @@ finished hero section
 added the inspiration quote and the sign up section
 
 added the footer section
+
+image author: Cátia Matos
